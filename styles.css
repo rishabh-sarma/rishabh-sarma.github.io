@@ -132,11 +132,15 @@ section {
     padding: 0;
 }
 
+/* Ensure publication lists match main text size */
 .pub-list {
-  margin-left: 1.5em;
-  padding-left: 0; /* remove extra padding */
-  list-style-position: outside; /* align bullets like numbers */
+    font-size: 0.95em;
+    margin-left: 1.5em;
+    padding-left: 0;
+    list-style-position: outside;
+    line-height: 1.5;
 }
 .pub-list li {
-  margin-bottom: 0.65em;
+    margin-bottom: 0.65em;
 }
+
