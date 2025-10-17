@@ -1,138 +1,133 @@
-/* === General Reset === */
+/* General Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* === Global Typography (same across all pages) === */
-html {
-  font-size: 16px;
-}
-
+/* Body */
 body {
-  font-family: "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #222;
-  background-color: #ffffff;
-  margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.5;
+    font-size: 15px;   /* Smaller than before (was ~16–17px) */
 }
 
-/* === Container === */
+/* Container */
 .container {
-  display: flex;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
-/* === Sidebar (left section) === */
+/* Sidebar (left section) */
 .sidebar {
-  width: 260px;
-  padding-right: 40px;
-  border-right: 1px solid #ddd;
+    width: 240px;
+    padding-right: 35px;
+    border-right: 1px solid #ddd;
 }
 
 .sidebar h1 {
-  font-size: 1.8em;
-  margin-bottom: 5px;
-  color: #000;
-  font-weight: 600;
+    font-size: 1.4em;
+    margin-bottom: 6px;
+    color: #000;
+    font-weight: 600;
 }
 
 .sidebar p {
-  margin-bottom: 8px;
-  font-size: 1em;
+    margin-bottom: 6px;
+    font-size: 0.95em;
 }
 
 .sidebar a {
-  color: #007acc;
-  text-decoration: none;
+    color: #0056b3;
+    text-decoration: none;
 }
 
 .sidebar a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-/* === Navigation Links === */
+/* Navigation links */
 .nav-links {
-  list-style: none;
-  margin-top: 20px;
+    list-style: none;
+    margin-top: 20px;
 }
 
 .nav-links li {
-  margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .nav-links a {
-  font-size: 1.05em;
-  color: #007acc;
-  text-decoration: none;
+    font-size: 0.95em;
+    color: #0056b3;
+    text-decoration: none;
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-/* === Content (right section) === */
+/* Content area (right section) */
 .content {
-  flex: 1;
-  padding-left: 40px;
+    flex: 1;
+    padding-left: 35px;
 }
 
 .content h2 {
-  font-size: 1.6em;
-  margin-bottom: 12px;
-  color: #000;
-  font-weight: 600;
+    font-size: 1.3em;
+    margin-bottom: 8px;
+    color: #000;
+    font-weight: 600;
 }
 
 .content p,
 .content ul,
 .content li {
-  margin-bottom: 12px;
-  font-size: 1em;
+    margin-bottom: 8px;
+    font-size: 0.93em;
 }
 
 .content ul {
-  list-style: disc inside;
+    list-style: disc inside;
 }
 
 .content a {
-  color: #007acc;
-  text-decoration: none;
+    color: #0056b3;
+    text-decoration: none;
 }
 
 .content a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-section {
-  background: none;
-  border: none;
-  box-shadow: none;
-  padding: 0;
-}
-
-/* === Publication Lists === */
+/* Publication list formatting */
 .pub-list {
-  margin-left: 1.2em;
-  line-height: 1.55;
-  padding-left: 0.4em;
+    margin-left: 1.5em;
+    line-height: 1.45;
+    padding-left: 0.5em;
 }
 
 .pub-list li {
-  margin-bottom: 0.8em;
+    margin-bottom: 0.65em;
 }
 
-/* === Links === */
 a {
-  color: #007acc;
-  text-decoration: none;
+    color: #0044cc;
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
+}
+
+/* No boxy sections */
+section {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
 }
