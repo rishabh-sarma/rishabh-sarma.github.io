@@ -144,3 +144,11 @@ section {
     margin-bottom: 0.65em;
 }
 
+/* Make Articles in Preparation match Publications and Preprints */
+.content ul.pub-list {
+  font-size: 1em;           /* same as base text size */
+  line-height: 1.5;         /* match the spacing of the ol list */
+  list-style-position: outside;
+  margin-left: 1.5em;
+  padding-left: 0;
+}
