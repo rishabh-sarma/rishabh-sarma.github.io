@@ -131,3 +131,12 @@ section {
     box-shadow: none;
     padding: 0;
 }
+
+.pub-list {
+  margin-left: 1.5em;
+  padding-left: 0; /* remove extra padding */
+  list-style-position: outside; /* align bullets like numbers */
+}
+.pub-list li {
+  margin-bottom: 0.65em;
+}
