@@ -132,23 +132,19 @@ section {
     padding: 0;
 }
 
-/* Ensure publication lists match main text size */
-.pub-list {
-    font-size: 0.95em;
-    margin-left: 1.5em;
-    padding-left: 0;
-    list-style-position: outside;
-    line-height: 1.5;
-}
+/* --- Unified publication list style (both ul and ol) --- */
+.pub-list,
 .pub-list li {
-    margin-bottom: 0.65em;
+  font-size: 1em;          /* match main content text size */
+  line-height: 1.5;        /* consistent spacing */
 }
 
-/* Make Articles in Preparation match Publications and Preprints */
-.content ul.pub-list {
-  font-size: 1em;           /* same as base text size */
-  line-height: 1.5;         /* match the spacing of the ol list */
-  list-style-position: outside;
-  margin-left: 1.5em;
+.pub-list {
+  margin-left: 1.5em;      /* indentation */
   padding-left: 0;
+  list-style-position: outside;  /* align bullets/numbers neatly */
+}
+
+.pub-list li {
+  margin-bottom: 0.65em;   /* small gap between items */
 }
