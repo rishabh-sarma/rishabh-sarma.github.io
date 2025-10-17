@@ -1,126 +1,135 @@
-/* General Reset */
+/* === General Reset === */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Body */
+/* === Global Typography (same across all pages) === */
+html {
+  font-size: 16px;
+}
+
 body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    background-color: #ffffff;
-    color: #222;
-    line-height: 1.6;
+  font-family: "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #222;
+  background-color: #ffffff;
+  margin: 0;
 }
 
-/* Container */
+/* === Container === */
 .container {
-    display: flex;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
-/* Sidebar (left section) */
+/* === Sidebar (left section) === */
 .sidebar {
-    width: 260px;
-    padding-right: 40px;
-    border-right: 1px solid #ddd;
+  width: 260px;
+  padding-right: 40px;
+  border-right: 1px solid #ddd;
 }
 
 .sidebar h1 {
-    font-size: 1.8em;
-    margin-bottom: 5px;
-    color: #000;
+  font-size: 1.8em;
+  margin-bottom: 5px;
+  color: #000;
+  font-weight: 600;
 }
 
 .sidebar p {
-    margin-bottom: 8px;
-    font-size: 1em;
+  margin-bottom: 8px;
+  font-size: 1em;
 }
 
 .sidebar a {
-    color: #007acc;
-    text-decoration: none;
+  color: #007acc;
+  text-decoration: none;
 }
 
 .sidebar a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-/* Navigation links */
+/* === Navigation Links === */
 .nav-links {
-    list-style: none;
-    margin-top: 20px;
+  list-style: none;
+  margin-top: 20px;
 }
 
 .nav-links li {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .nav-links a {
-    font-size: 1.05em;
-    color: #007acc;
-    text-decoration: none;
+  font-size: 1.05em;
+  color: #007acc;
+  text-decoration: none;
 }
 
 .nav-links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-/* Content area (right section) */
+/* === Content (right section) === */
 .content {
-    flex: 1;
-    padding-left: 40px;
+  flex: 1;
+  padding-left: 40px;
 }
 
 .content h2 {
-    font-size: 1.6em;
-    margin-bottom: 10px;
-    color: #000;
+  font-size: 1.6em;
+  margin-bottom: 12px;
+  color: #000;
+  font-weight: 600;
 }
 
-.content p, 
-.content ul, 
+.content p,
+.content ul,
 .content li {
-    margin-bottom: 12px;
-    font-size: 1em;
+  margin-bottom: 12px;
+  font-size: 1em;
 }
 
 .content ul {
-    list-style: disc inside;
+  list-style: disc inside;
 }
 
 .content a {
-    color: #007acc;
-    text-decoration: none;
+  color: #007acc;
+  text-decoration: none;
 }
 
 .content a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-/* Remove the boxes and shadows */
 section {
-    background: none;
-    border: none;
-    box-shadow: none;
-    padding: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
 }
 
+/* === Publication Lists === */
 .pub-list {
-  margin-left: 1.5em;
-  line-height: 1.5;
-  padding-left: 0.5em;
+  margin-left: 1.2em;
+  line-height: 1.55;
+  padding-left: 0.4em;
 }
 
 .pub-list li {
-  margin-bottom: 0.75em;
+  margin-bottom: 0.8em;
 }
 
+/* === Links === */
 a {
-  color: #0044cc;
+  color: #007acc;
   text-decoration: none;
 }
 
