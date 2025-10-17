@@ -148,3 +148,20 @@ section {
 .pub-list li {
   margin-bottom: 0.65em;   /* small gap between items */
 }
+
+/* --- Teaching list styling (match home/publications text) --- */
+.teaching-list,
+.teaching-list li {
+  font-size: 1em;         /* full text size */
+  line-height: 1.5;       /* same vertical spacing */
+}
+
+.teaching-list {
+  margin-left: 1.5em;     /* same indentation as pub-list */
+  padding-left: 0;
+  list-style-position: outside;
+}
+
+.teaching-list li {
+  margin-bottom: 0.5em;   /* small gap between courses */
+}
