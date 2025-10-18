@@ -6,12 +6,12 @@
 }
 
 /* Body */
-body {
-    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-    background-color: #ffffff;
-    color: #222;
-    line-height: 1.5;
-    font-size: 15px;   /* Smaller than before (was ~16–17px) */
+.pub-list, 
+.pub-list li {
+  font-family: inherit;      /* ensures it follows the body font */
+  font-size: inherit;        /* keeps the same size as body text */
+  font-weight: normal;
+  color: inherit;
 }
 
 /* Container */
