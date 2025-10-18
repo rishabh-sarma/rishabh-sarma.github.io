@@ -181,3 +181,18 @@ section {
 .talk-list li {
   margin-bottom: 0.5em;
 }
+
+/* Center text and narrow content for a cleaner look */
+.content {
+  flex: 1;
+  padding-left: 40px;
+  text-align: center;        /* centers all text */
+  max-width: 800px;          /* keeps content narrow like Kundu’s */
+  margin: 0 auto;            /* centers the content block itself */
+}
+
+.content h2 {
+  text-align: center;        /* center section headers */
+  margin-bottom: 15px;
+}
+
