@@ -165,3 +165,19 @@ section {
 .teaching-list li {
   margin-bottom: 0.5em;   /* small gap between courses */
 }
+
+.talk-list,
+.talk-list li {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.talk-list {
+  margin-left: 1.5em;
+  padding-left: 0;
+  list-style-position: outside;
+}
+
+.talk-list li {
+  margin-bottom: 0.5em;
+}
