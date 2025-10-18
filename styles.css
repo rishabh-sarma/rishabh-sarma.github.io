@@ -187,11 +187,11 @@ section {
   flex: 1;
   padding-left: 40px;
   max-width: 800px;           /* narrow content area like Kundu’s */
-  margin: 0 auto;             /* center the content block */
+  margin: 0 auto;             /* centers the content block */
   text-align: justify;        /* align both left and right edges */
   text-justify: inter-word;   /* space words evenly */
   line-height: 1.8;           /* nice readable spacing */
-  font-size: 0.93em;          /* same size as your main text */
+  font-size: inherit;         /* keep same font size as body */
 }
 
 .content h2 {
