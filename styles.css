@@ -114,76 +114,65 @@ body {
     text-decoration: underline;
 }
 
-/* Publication list formatting */
+/* Publication list and section styling (match homepage text) */
+#publications {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#publications h2 {
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+/* Unified publication list style */
 .pub-list {
-    margin-left: 1.5em;
-    line-height: 1.45;
-    padding-left: 0.5em;
-}
-
-.pub-list li {
-    margin-bottom: 0.65em;
-}
-
-a {
-    color: #0044cc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* No boxy sections */
-section {
-    background: none;
-    border: none;
-    box-shadow: none;
-    padding: 0;
-}
-
-/* --- Unified publication list style (both ul and ol) --- */
-.pub-list,
-.pub-list li {
-  font-size: 1em;          /* match main content text size */
-  line-height: 1.5;        /* consistent spacing */
-}
-
-.pub-list {
-  margin-left: 1.5em;      /* indentation */
+  margin-left: 1.3em;
   padding-left: 0;
-  list-style-position: outside;  /* align bullets/numbers neatly */
+  list-style-position: outside;
+  font-size: inherit;
+  line-height: 1.8; /* same as homepage paragraphs */
 }
 
 .pub-list li {
-  margin-bottom: 0.65em;   /* small gap between items */
+  margin-bottom: 0.8em;
+  font-size: inherit;
+  line-height: inherit;
 }
 
-/* --- Teaching list styling (match home/publications text) --- */
+/* Teaching list styling */
 .teaching-list,
 .teaching-list li {
-  font-size: 1em;         /* full text size */
-  line-height: 1.5;       /* same vertical spacing */
+  font-size: inherit;
+  line-height: 1.8;
 }
 
 .teaching-list {
-  margin-left: 1.5em;     /* same indentation as pub-list */
+  margin-left: 1.3em;
   padding-left: 0;
   list-style-position: outside;
 }
 
 .teaching-list li {
-  margin-bottom: 0.5em;   /* small gap between courses */
+  margin-bottom: 0.5em;
 }
 
+/* Talks list styling */
 .talk-list,
 .talk-list li {
-  font-size: 1em;
-  line-height: 1.5;
+  font-size: inherit;
+  line-height: 1.8;
 }
 
 .talk-list {
-  margin-left: 1.5em;
+  margin-left: 1.3em;
   padding-left: 0;
   list-style-position: outside;
 }
@@ -192,20 +181,20 @@ section {
   margin-bottom: 0.5em;
 }
 
-/* Center text and narrow content for a cleaner look */
+/* Center text and narrow content for a cleaner look (homepage style) */
 .content {
   flex: 1;
   padding-left: 40px;
-  max-width: 800px;           /* narrow content area like Kundu’s */
-  margin: 0 auto;             /* centers the content block */
-  text-align: justify;        /* align both left and right edges */
-  text-justify: inter-word;   /* space words evenly */
-  line-height: 1.8;           /* nice readable spacing */
-  font-size: inherit;         /* keep same font size as body */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.8;
+  font-size: inherit;
 }
 
 .content h2 {
-  text-align: center;        /* center section headers */
+  text-align: center;
   margin-bottom: 15px;
 }
 
