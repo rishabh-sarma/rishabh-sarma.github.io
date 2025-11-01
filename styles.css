@@ -114,7 +114,7 @@ body {
     text-decoration: underline;
 }
 
-/* Publication list and section styling (match homepage text) */
+/* Publications section - consistent with homepage text */
 #publications {
   font-family: inherit;
   font-size: inherit;
@@ -124,6 +124,7 @@ body {
   text-justify: inter-word;
 }
 
+/* Section headings */
 #publications h2 {
   text-align: center;
   font-size: 1.25em;
@@ -132,19 +133,30 @@ body {
   color: #000;
 }
 
-/* Unified publication list style */
+/* Unified publication list style for both <ul> and <ol> */
 .pub-list {
   margin-left: 1.3em;
   padding-left: 0;
   list-style-position: outside;
-  font-size: inherit;
-  line-height: 1.8; /* same as homepage paragraphs */
+  font-family: inherit;
+  font-size: 0.93em; /* match homepage <p> */
+  line-height: 1.8;
+  color: inherit;
 }
 
 .pub-list li {
   margin-bottom: 0.8em;
+  font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  color: inherit;
+}
+
+/* Remove any default browser padding for ordered vs unordered lists */
+ol.pub-list,
+ul.pub-list {
+  margin: 0 0 0 1.3em;
+  padding: 0;
 }
 
 /* Teaching list styling */
