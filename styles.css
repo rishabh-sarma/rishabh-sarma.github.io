@@ -16,6 +16,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.vspace-neg-2mm {
+  display: block;
+  margin-top: -2mm;
+}
+
 /* Center text and narrow content for a cleaner look (homepage style) */
 .content {
   flex: 1;
