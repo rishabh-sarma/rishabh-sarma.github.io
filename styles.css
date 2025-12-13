@@ -82,11 +82,6 @@ body {
 }
 
 /* Content area (right section) */
-.content {
-    flex: 1;
-    padding-left: 35px;
-}
-
 .content h2 {
     font-size: 1.3em;
     margin-bottom: 8px;
