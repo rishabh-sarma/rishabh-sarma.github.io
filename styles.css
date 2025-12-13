@@ -204,3 +204,29 @@ ul.pub-list {
 .talk-list li {
   margin-bottom: 0.5em;
 }
+
+/* Hanging indent for all lists */
+.content ul,
+.content ol {
+  list-style-position: outside;
+  padding-left: 1.4em;
+}
+
+.content li {
+  padding-left: 0.4em;
+}
+
+/* Ensure consistent hanging indent for custom lists */
+.pub-list,
+.teaching-list,
+.talk-list {
+  list-style-position: outside;
+  padding-left: 1.4em;
+}
+
+.pub-list li,
+.teaching-list li,
+.talk-list li {
+  padding-left: 0.4em;
+}
+
