@@ -20,7 +20,7 @@ body {
 .content {
   flex: 1;
   padding-left: 40px;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   text-align: justify;
   text-justify: inter-word;
