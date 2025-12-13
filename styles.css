@@ -303,7 +303,6 @@ body.dark h2 {
   cursor: pointer;
 }
 
-/* Default state style */
 .us-map .state {
   fill: #ccc;
   stroke: #666;
@@ -311,12 +310,11 @@ body.dark h2 {
   transition: fill 0.2s ease;
 }
 
-/* Highlight visited states */
 .us-map .state.visited {
-  fill: #FFD700; /* gold */
+  fill: #FFD700;
 }
 
-/* Hover effect */
 .us-map .state.visited:hover {
-  fill: #FFA500; /* darker on hover */
+  fill: #FFA500;
 }
+
