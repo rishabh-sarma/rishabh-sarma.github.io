@@ -230,3 +230,13 @@ ul.pub-list {
   padding-left: 0.4em;
 }
 
+/* Align talks bullets with main homepage text */
+.talk-list {
+  margin-left: 0;       /* remove extra indentation */
+  padding-left: 0;      /* remove padding */
+  list-style-position: inside; /* bullets inline with text */
+}
+
+.talk-list li {
+  margin-bottom: 0.8em; /* spacing between items */
+}
