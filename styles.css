@@ -241,3 +241,42 @@ ul.pub-list {
   margin-bottom: 0.8em; /* spacing between items */
 }
 
+/* Name + theme toggle layout */
+.name-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Theme toggle button */
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  padding: 2px;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #121212;
+  color: #e6e6e6;
+}
+
+body.dark .sidebar {
+  border-right: 1px solid #444;
+}
+
+body.dark a {
+  color: #7aa2ff;
+}
+
+body.dark a:hover {
+  color: #a6bfff;
+}
+
+body.dark .content h2,
+body.dark .sidebar h1 {
+  color: #ffffff;
+}
+
