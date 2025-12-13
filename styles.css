@@ -16,6 +16,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Center text and narrow content for a cleaner look (homepage style) */
+.content {
+  flex: 1;
+  padding-left: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.8;
+  font-size: inherit;
+}
+
+.content h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 .pub-list, 
 .pub-list li {
   font-family: inherit;      /* ensures it follows the body font */
@@ -186,25 +203,4 @@ ul.pub-list {
 
 .talk-list li {
   margin-bottom: 0.5em;
-}
-
-/* Center text and narrow content for a cleaner look (homepage style) */
-.content {
-  flex: 1;
-  padding-left: 40px;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: justify;
-  text-justify: inter-word;
-  line-height: 1.8;
-  font-size: inherit;
-}
-
-.content h2 {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.content {
-  max-width: 700px;   /* was 800px */
 }
