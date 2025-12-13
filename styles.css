@@ -243,7 +243,7 @@ ul.pub-list {
 
 /* Publications page: wider text block */
 #publications {
-  max-width: 1050px;  /* increase width from homepage 650-800px */
+  max-width: 1200px;  /* increase width from homepage 650-800px */
   margin: 0 auto;    /* center it */
   text-align: justify;
   text-justify: inter-word;
