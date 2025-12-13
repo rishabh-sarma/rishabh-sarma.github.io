@@ -290,3 +290,33 @@ body.dark h1,
 body.dark h2 {
   color: #ffffff;
 }
+
+.us-map-container {
+  max-width: 900px;
+  margin: 1.5em auto;
+  text-align: center;
+}
+
+.us-map {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Default state style */
+.us-map .state {
+  fill: #ccc;
+  stroke: #666;
+  stroke-width: 0.8;
+  transition: fill 0.2s ease;
+}
+
+/* Highlight visited states */
+.us-map .state.visited {
+  fill: #FFD700; /* gold */
+}
+
+/* Hover effect */
+.us-map .state.visited:hover {
+  fill: #FFA500; /* darker on hover */
+}
