@@ -123,6 +123,22 @@ a:hover {
   font-size: 13.5px;
 }
 
+/* Visitor globe below left navigation */
+.visitor-globe {
+  width: 170px;
+  max-width: 100%;
+  margin: 16px 0 0 0;
+  overflow: hidden;
+}
+
+.visitor-globe iframe,
+.visitor-globe canvas,
+.visitor-globe img,
+.visitor-globe svg {
+  display: block;
+  max-width: 100% !important;
+}
+
 .pub-list,
 .teaching-list,
 .talk-list {
