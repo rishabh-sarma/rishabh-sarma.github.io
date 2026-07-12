@@ -200,7 +200,7 @@ a:hover {
 
 .theme-icon.sun {
   opacity: 1;
-  transform: scale(0.94);
+  transform: scale(1);
 }
 
 .theme-icon.moon {
