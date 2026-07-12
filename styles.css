@@ -132,7 +132,7 @@ a:hover {
 }
 
 .visitor-globe > * {
-  transform: scale(1.1);
+  transform: scale(0.92);
   transform-origin: top left;
 }
 
