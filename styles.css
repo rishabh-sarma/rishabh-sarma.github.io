@@ -126,17 +126,14 @@ a:hover {
 /* Visitor globe below left navigation */
 .visitor-globe {
   width: 170px;
-  max-width: 100%;
+  height: 170px;
   margin: 16px 0 0 0;
   overflow: hidden;
 }
 
-.visitor-globe iframe,
-.visitor-globe canvas,
-.visitor-globe img,
-.visitor-globe svg {
-  display: block;
-  max-width: 100% !important;
+.visitor-globe > * {
+  transform: scale(0.7);
+  transform-origin: top left;
 }
 
 .pub-list,
