@@ -1,3 +1,5 @@
+Give me just the code here to paste
+
 <HTML>
 <HEAD>
 <TITLE>Rishabh Sarma</TITLE>
@@ -6,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-  
+
 p {
   text-align: justify;
   text-justify: inter-word;
@@ -14,8 +16,9 @@ p {
 
 ul {
   padding-right: 40px;
-}  
-  
+}
+
+/* Mobile */
 @media screen and (max-width: 700px) {
 
   body {
@@ -25,12 +28,14 @@ ul {
     line-height: 1.45;
   }
 
-  body > img:first-of-type {
+  .profile-pic {
     float: none !important;
+    position: static !important;
     display: block;
     width: 210px !important;
     height: auto !important;
-    margin: 0 auto 18px auto;
+    margin: 0 auto 18px auto !important;
+    object-fit: cover;
   }
 
   table {
@@ -87,21 +92,23 @@ ul {
     height: 20px;
   }
 }
-</style>
 
-<style>
-@media screen and (min-width: 701px) and (max-width: 1500px) {
+/* Laptop + desktop + large monitor */
+@media screen and (min-width: 701px) {
 
   body {
     position: relative;
   }
 
-  body > img:first-of-type {
-  float: none !important;
-  position: absolute;
-  top: 0;
-  right: 25px;
-}
+  .profile-pic {
+    float: none !important;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    width: 340px;
+    height: 313px;
+    object-fit: cover;
+  }
 
   body > table {
     width: calc(100% - 380px) !important;
@@ -111,14 +118,18 @@ ul {
     max-width: calc(100% - 380px);
   }
 }
+
 </style>
 
 </HEAD>
 
 <BODY bgcolor="#ffffff">
 
-<IMG SRC="files/profile.jpg" alt="Rishabh Sarma" width=320 height=300
-     style="float:right; object-fit:cover; margin-left:45px; margin-bottom:10px;">
+<IMG SRC="files/profile.jpg"
+     alt="Rishabh Sarma"
+     width="340"
+     height="313"
+     class="profile-pic">
 
 <TABLE WIDTH=75% CELLSPACING=0 BORDER=0>
 <TR>
