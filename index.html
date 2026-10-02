@@ -23,6 +23,11 @@ ul {
     line-height: 1.45;
   }
 
+  .top-section {
+    padding-right: 0;
+    min-height: 0;
+  }
+
   .profile-pic {
     float: none !important;
     position: static !important;
@@ -89,15 +94,25 @@ ul {
 }
 
 @media screen and (min-width: 701px) {
+  .top-section {
+    position: relative;
+    min-height: 313px;
+    padding-right: 410px;
+    box-sizing: border-box;
+  }
+
   .profile-pic {
-    float: right;
-    position: static;
+    position: absolute;
+    top: 0;
+    right: 40px;
     width: 340px;
     height: 313px;
     object-fit: cover;
-    margin-left: 30px;
-    margin-right: 40px;
-    margin-bottom: 15px;
+    margin: 0;
+  }
+
+  .top-section table {
+    width: 100% !important;
   }
 }
 </style>
@@ -105,6 +120,8 @@ ul {
 </HEAD>
 
 <BODY bgcolor="#ffffff">
+
+<div class="top-section">
 
 <IMG SRC="files/profile.jpg" alt="Rishabh Sarma" width="340" height="313" class="profile-pic">
 
@@ -144,6 +161,8 @@ The Pennsylvania State University<BR>
 
 <BR>
 <BR>
+
+</div>
 
 
 
